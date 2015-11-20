@@ -22,6 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
         splitViewController.delegate = self
         
+        splitViewController.preferredPrimaryColumnWidthFraction = 0.5
+        splitViewController.maximumPrimaryColumnWidth = 600
+        
+        splitViewController.preferredDisplayMode = UISplitViewControllerDisplayMode.PrimaryOverlay
+        
         return true
     }
 

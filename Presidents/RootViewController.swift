@@ -21,7 +21,7 @@ class RootViewController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
-    // override the traitCollection so that every iPhone behaves like iPhone6 Plus
+    // override the traitCollection so that every iPhone behaves like iPhone 6 Plus
     override func traitCollectionDidChange(previousTraitCollection: UITraitCollection?) {
         let splitVC = viewControllers[0] as! UIViewController
         let newTraits = traitCollection
@@ -39,6 +39,7 @@ class RootViewController: UINavigationController {
     
     /*
     // ******************** EXERCISE **************************
+    
     // make every device behave like iPhone in Portrait, no matter the orientation
     
     override func traitCollectionDidChange(previousTraitCollection: UITraitCollection?) {
