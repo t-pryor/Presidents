@@ -16,11 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let splitViewController = self.window!.rootViewController as! UISplitViewController
+        let rootViewController = window!.rootViewController as! UINavigationController
+        let splitViewController = rootViewController.viewControllers[0] as! UISplitViewController
         let navigationController = splitViewController.viewControllers.last as! UINavigationController
-        // assigns the diplayModeButtonItem of the split view controller to the navigation bar of the detail view controller
-       navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
+        navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
         splitViewController.delegate = self
+        
         return true
     }
 
@@ -57,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                 }
             }
         }
-        return false
+        return true
     }
 
 }

@@ -14,6 +14,7 @@
 		222411331BFD19B700C294AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222411321BFD19B700C294AC /* Images.xcassets */; };
 		222411361BFD19B800C294AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222411341BFD19B800C294AC /* LaunchScreen.xib */; };
 		222411421BFD19B800C294AC /* PresidentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222411411BFD19B800C294AC /* PresidentsTests.swift */; };
+		223EC08F1BFF399100F50360 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EC08E1BFF399100F50360 /* RootViewController.swift */; };
 		226FAFB11BFE3929006098E3 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226FAFB01BFE3929006098E3 /* PresidentList.plist */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		2224113B1BFD19B800C294AC /* PresidentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresidentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222411401BFD19B800C294AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222411411BFD19B800C294AC /* PresidentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsTests.swift; sourceTree = "<group>"; };
+		223EC08E1BFF399100F50360 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		226FAFB01BFE3929006098E3 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				2224112F1BFD19B700C294AC /* Main.storyboard */,
 				222411321BFD19B700C294AC /* Images.xcassets */,
 				222411341BFD19B800C294AC /* LaunchScreen.xib */,
+				223EC08E1BFF399100F50360 /* RootViewController.swift */,
 				222411271BFD19B700C294AC /* Supporting Files */,
 			);
 			path = Presidents;
@@ -221,6 +224,7 @@
 			files = (
 				2224112E1BFD19B700C294AC /* DetailViewController.swift in Sources */,
 				2224112C1BFD19B700C294AC /* MasterViewController.swift in Sources */,
+				223EC08F1BFF399100F50360 /* RootViewController.swift in Sources */,
 				2224112A1BFD19B700C294AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
